@@ -1,0 +1,39 @@
+{
+  "name": "Hire-Me-Please",
+  "version": "1.0.0",
+  "description": "Looking to hire someone? Looking to get hired? You’re in the right place! If you’re an employer looking for workers take a look at our Job Seekers page. Or, if you want to put yourself out there, head on over to Create Post and tell the world about yourself.",
+  "engines": {
+    "node": "^14.x",
+    "npm": "^7.11.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "prod": "NODE_ENV=production npm start",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.15.2",
+    "express-es6-template-engine": "^2.2.3",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sriveragithub/dc-back-end-project"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}

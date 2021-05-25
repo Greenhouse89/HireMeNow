@@ -1,0 +1,7 @@
+{
+  "name": "Hire Me Please",
+  "description": "A full stack app that allows users to create job seeker profiles and hiring managers to search through those profiles",
+  "repository": "https://github.com/sriveragithub/dc-back-end-project",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
